@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-header a {
+    color: black;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.top-header a:hover {
+    text-decoration: underline;
+}
+
+.bottom-header {
+    background-color: #004D80;
+}
+
+.navbar .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.company-specs .col-md-4 {
+    padding: 2.5% 2%;
+}
+
+.company-specs img {
+    padding-bottom: 10%;
+}
+
+@media(max-width:768px) {
+    .company-specs img {
+        width: 20%;
+    }
+}
+
+.requirements {
+    background-color: #004D80;
+    color: white;
+}
+
+.snippets {
+    padding: 5% 10%
+}
+
+.subscribe {
+    background-color: #004D80;
+
+}
+
+.subscribe .form-control {
+    border-radius: 50px;
+}
+
+.subscribe .btn {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #BE0280;
+    color: white;
+}
+
+.services .col-md-4 {
+    padding: 2.5% 2%;
+}
+
+.services a {
+    font-weight: bold;
+    display: inline;
+}
+
+.services a:hover {
+    color: #0056B3;
+    text-decoration: underline;
+}
+
+.clients {
+    padding: 2% 10%;
+    background-color: #F0F0F0;
+}
+
+.clients .col-md-2 {
+    padding: 3% 2%;
+}
+
+footer {
+    background-color: #243C4F;
+    color: white;
+
+}
+
+.main-footer a:hover {
+    text-decoration: underline;
+}
+
+.bottom-footer {
+    background-color: #031B2E;
+
+}
+
+/* portfolio */
+.our-work .col-md-4 {
+    padding: 2.5% 2%;
+}
+
+.our-work img {
+    width: 100%;
+}
+
+/* about us */
+
+.our-team .col-md-4 {
+    padding: 2.5% 2%;
+}
+
+.progress-static {
+    width: 95%;
+    height: 10%;
+    background-color: #1ABC9C;
+    border: 1px solid;
+    border-bottom-left-radius: 20px;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.progress-dynamic {
+    width: 85%;
+    height: 10%;
+    background-color: #9B59B6;
+    border: 1px solid;
+    border-bottom-left-radius: 20px;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.php {
+    width: 90%;
+    background-color: #9B59B6;
+}
+
+.mysql {
+    width: 85%;
+    background-color: #3498DB;
+}
+
+.jquery {
+    width: 80%;
+    background-color: #F39C12;
+}
+
+.asp {
+    width: 95%;
+    background-color: #16A085;
+}
+
+.ecommerce {
+    width: 75%;
+    background-color: #C0392B;
+}
+
+.google {
+    width: 90%;
+    background-color: #C0392B;
+}
+
+.facebook {
+    width: 85%;
+    background-color: #3498DB;
+}
+
+.instagram {
+    width: 75%;
+    background-color: #9B59B6;
+}
+
+.net {
+    background-color: #1480E6;
+}
+
+.java {
+    background-color: #E4800D;
+}
+
+.custom {
+    background-color: #9B59B6;
+}
+
+.android {
+    background-color: #27AE60;
+}
+
+.ios {
+    background-color: #3498DB;
+
+}
+
+.hybrid {
+    background-color: #9B59B6;
+    width: 75%;
+}
